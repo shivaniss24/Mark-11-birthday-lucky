@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mukta:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#e2804b;
+    --secondary-color:#fde68a;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 8px;
+}
+h1{
+    margin-top: 5rem;
+    text-align: center;
+}
+.container
+{
+   width: 50%;
+   margin: auto auto;
+}
+
+input,label
+{
+    display: block;
+    width: 100%;
+}
+input{
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+}
+label{
+    text-align: center;
+    margin-top: 2rem;
+    
+
+}
+
+
+#check-number
+{
+    margin: auto;
+    display: block;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border-width: medium;
+    border-color:var(--secondary-color);
+    background: transparent;
+    color: var(--secondary-color);
+    
+}
+button:hover{
+    background-color:var(--secondary-color);
+}
+
+#output-box
+{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+}
+#date-of-birth
+{
+    width: 50%;
+    margin: auto;
+}
+
+#lucky-number
+{
+    width: 50%;
+    margin: auto; 
+}
+p{
+    margin-top:8rem ;
+    text-align: center;
+    font-size: 20px;
+}
+.footer-list
+{
+    
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+li{
+    
+    display: inline;
+}
+button
+{
+    cursor: pointer;
+}
+.source{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.source .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px black;
+    transition: all 0.3s ease-out;
+}
+
+.source .button span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+}
+
+.source .button:hover {
+    height: 105px;
+    width: 170px;
+    border-radius: 15px;
+    color: var(--primary-color);
+}
+
+.source .button:hover .icon {
+    background: var(--primary-color);
+    color:var(--secondary-color);
+}
+
+.source .button i{
+    line-height: 3rem;
+}
+footer{
+box-sizing: border-box;
+display: grid;
+height: 100%;
+width: 100%;
+place-items: center;
+font-family: var(--font-four);
+}
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.hashnode{
+    margin-top: 0.9rem;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: var(--primary-color);
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: var(--primary-color);
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #211F1F;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background:var(--primary-color);
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background:var(--primary-color);
+    color:var(--secondary-color);
+}
+
+.wrapper .button:nth-child(6):hover .icon {
+    background:var(--primary-color);
+}
+
+.wrapper .button:nth-child(7):hover .icon {
+    background:var(--primary-color);
+}
+
+.wrapper .button:nth-child(8):hover .icon {
+    background: var(--primary-color);
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: var(--primary-color);
+}
+
+.wrapper .button:nth-child(2) span {
+    color:var(--primary-color);
+}
+
+.wrapper .button:nth-child(3) span {
+    color:var(--primary-color);
+}
+
+.wrapper .button:nth-child(4) span {
+    color: var(--primary-color);
+}
+
